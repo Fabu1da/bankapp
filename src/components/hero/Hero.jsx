@@ -11,8 +11,8 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 p-16 `}
       >
-        <div className="flex flex-row justify-start items-center p-[6px] bg-discount-gradient w-max rounded-[10px]">
-          <img src={discount} height="h-[32px] w-[32px]" alt="" />
+        <div className="flex flex-row justify-start items-center p-[6px] bg-discount-gradient md:w-max w-full rounded-[10px]">
+          <img src={discount} className="h-[32px] w-[32px]" alt="" />
           <p className={`${styles.paragraph}`}>
             20% <span className="text-gray-500">DISCOUNT FOR</span> 1 MONTH
             <span className="text-gray-500">ACCOUNT</span>{" "}
