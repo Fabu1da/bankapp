@@ -29,7 +29,7 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
-        <p className="text-white ">
+        <p className={`${styles.paragraph}`}>
           Our team of experts uses a methodology to identify the credit cards
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.

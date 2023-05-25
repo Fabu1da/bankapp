@@ -17,7 +17,6 @@ const Cta = () => {
         </div>
         <div>
           <Button title="Get Started" />
-          {/* <button>Get Started</button> */}
         </div>
       </div>
     </div>
